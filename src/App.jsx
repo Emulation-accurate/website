@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Route, Routes } from 'react-router-dom'
 import Home from './components/Home'
 import AboutUs from './components/AboutUs'
@@ -9,6 +9,7 @@ import HacktoberfestReg from './components/HacktoberfestReg'
 
 const App = () => {
   return (
+    
     <Routes>
       <Route path='/' element={<Home />}></Route>
       <Route path='/hacktoberfestregis' element={<HacktoberfestReg />}></Route>
@@ -19,4 +20,4 @@ const App = () => {
   )
 }
 
-export default App
+export default App ;

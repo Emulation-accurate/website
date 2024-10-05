@@ -10,7 +10,7 @@ function MemberCard({
     courseYear,
 }) {
     return (
-        <div className="bg-white w-full h-80 flex flex-col gap-4 rounded-lg shadow-2xl hover:shadow-[0_20px_50px_rgba(105,_89,_75,_0.8)] hover:scale-105 duration-300 overflow-hidden">
+        <div className="bg-gradient-to-t from-gray-400 to-zinc-100 w-full h-80 flex flex-col gap-4 rounded-lg shadow-2xl hover:shadow-[0_20px_50px_rgba(105,_89,_75,_0.8)] hover:scale-105 duration-300 overflow-hidden">
             <div className="relative w-full h-1/3 bg-gradient-to-tl from-stone-400 to-stone-800">
                 <div className="absolute size-24 border-2 rounded-full shadow-lg bottom-[-50%] left-[50%] translate-y-[-10%] translate-x-[-50%]">
                     <img className="w-full h-full rounded-full" src={img} alt={name} />

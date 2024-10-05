@@ -128,9 +128,9 @@ const Members = () => {
 
 
     return (
-        <div className='p-10 relative w-full overflow-y-auto'>
+        <div className='p-10 relative w-full overflow-y-auto '>
             <h1 className='text-center text-3xl font-semibold italic text-[#2D2822] mb-10'>Members</h1>
-            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center'>
+            <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 justify-items-center '>
                 {Object.values(data).map((item, index) => (
                     <MemberCard key={"MemberCard__" + String(index)}
                         img={item.img}
