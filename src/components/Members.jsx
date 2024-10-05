@@ -79,13 +79,13 @@ const Members = () => {
             portfolio: '',
         },
         8: {
-            img: '',
-            name: 'Ankit',
-            about: 'Hey, I am Ankit from B.Tech 3rd year.',
-            githubProfile: '',
-            linkedinProfile: '',
+            img: '/member_pics/Aakash.jpg',
+            name: 'Aakash Sharma',
+            about: 'Hey, I am Aakash Sharma from B.Tech 4th year.',
+            githubProfile: 'https://github.com/aakashsharma7',
+            linkedinProfile: 'https://www.linkedin.com/in/aakash-sharma-2216b8205/',
             courseYear: 'B.Tech 4th Year',
-            portfolio: '',
+            portfolio: 'https://villgax-in.netlify.app/',
         },
         9: {
             img: '/member_pics/samiksha.jpeg',
@@ -97,15 +97,15 @@ const Members = () => {
             portfolio: '',
         },
         10: {
-            img: '/member_pics/Aakash.jpg',
-            name: 'Aakash Sharma',
-            about: 'Hey, I am Aakash Sharma from B.Tech 4th year.',
-            githubProfile: 'https://github.com/aakashsharma7',
-            linkedinProfile: 'https://www.linkedin.com/in/aakash-sharma-2216b8205/',
+            img: '',
+            name: 'Ankit',
+            about: 'Hey, I am Ankit from B.Tech 3rd year.',
+            githubProfile: '',
+            linkedinProfile: '',
             courseYear: 'B.Tech 4th Year',
-            portfolio: 'https://villgax-in.netlify.app/',
+            portfolio: '',
         },
-        10: {
+        11: {
             img: 'https://avatars.githubusercontent.com/u/120322314?v=4',
             name: 'Arpit',
             about: "Hello World </> I'm Arpit, a passionate MERN full-stack web developer.",
@@ -114,7 +114,7 @@ const Members = () => {
             courseYear: 'B.Tech 3rd Year',
             portfolio: 'https://helloarpit.vercel.app/',
         },
-        11: {
+        12: {
             img: 'https://media.licdn.com/dms/image/v2/D5603AQF7bjvX4iRMGQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1724474581187?e=1733356800&v=beta&t=LXQBw2RA4TozONzk3ClBHuJ3zGOphmMxveocy6cTavk',
             name: 'Rahul Pal',
             about: 'Hey, I am Rahul Pal from B.Tech 2nd year.',
@@ -125,7 +125,6 @@ const Members = () => {
         }
 
     }
-
 
     return (
         <div className='p-10 relative w-full overflow-y-auto'>
